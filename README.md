@@ -8,3 +8,5 @@ a straightforward game of hangman.
 
 **Date Completed:**
 - July 7th, 2022
+
+![coolPic](/images/hangman.png)
