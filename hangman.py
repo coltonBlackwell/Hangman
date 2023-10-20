@@ -1,6 +1,8 @@
 import random
+# import {HANGMANPICS} from "hangmanPics.py"
 
 from yaml import FlowSequenceEndToken
+from hangmanPics import HANGMANPICS
 
 
 def askLetter(letter):
@@ -46,62 +48,6 @@ def checkResponse(response, hangmanStage):
     else:
         hangmanStage = hangmanStage + 1
         return letter, hangmanStage, validReponse
-
-            
-#--------------------HANGMAN PICTURES-------------------
-
-HANGMANPICS = ['''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========''']
-
-#--------------------HANGMAN PICTURES-------------------
 
 
 words = ["apple", "matrix", "zebra"]

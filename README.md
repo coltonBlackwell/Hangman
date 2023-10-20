@@ -1,2 +1,10 @@
 # Hangman
-This python project collects the users input to play a simple game of hangman
+
+This Python project gathers user input to facilitate
+a straightforward game of hangman.
+
+**languages:**
+- Python
+
+**Date Completed:**
+- July 7th, 2022
